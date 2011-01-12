@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.booleancorp">
-	<application android:icon="@drawable/icon" android:label="DroID3Tagger Powered by Last.fm"
+	package="fftw3_mod">
+	<application android:icon="@drawable/icon" android:label="placeholder"
 		android:debuggable="false">
-		<activity android:name=".app.android.DroID3Tagger.MusicFilesList"
-			android:configChanges="orientation" android:label="DroID3Tagger Powered by Last.fm">
+		<activity android:name=".placeholder"
+			android:configChanges="orientation" android:label="placeholder">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
-				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".app.android.DroID3Tagger.ViewAndEditInfo"
-			android:label="@string/ViewInfo_EditInfo_Label" />
-
-
-		<activity android:name=".app.android.DroID3Tagger.RenamePreference"
-			android:label="@string/settings_title">
-		</activity>
-		<activity android:name=".app.android.DroID3Tagger.RenamePreference"
-			android:label="Preference" />
 	</application>
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 </manifest>
