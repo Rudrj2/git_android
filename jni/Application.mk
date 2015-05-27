@@ -1,1 +1,1 @@
-APP_MODULES      := fftw3_mod
+APP_MODULES      := fftw3_netease
