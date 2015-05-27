@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="fftw3_mod">
+	package="fftw3_netease">
 	<application android:icon="@drawable/icon" android:label="placeholder"
 		android:debuggable="false">
 		<activity android:name=".placeholder"
